@@ -1,0 +1,130 @@
+/* Signup.css */
+  
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signup-box {
+    width: 350px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .signup-box h2 {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-message {
+    font-size: 17px;
+    color: #8e8e8e;
+    margin-bottom: 15px;
+  }
+  
+  .signup-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-box input[type="text"],
+  .signup-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .signup-box button[type="submit"] {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .signup-box button[type="submit"]:hover {
+    background-color: #007bbf;
+  }
+  
+  .signup-with-facebook {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .signup-with-facebook:hover {
+    background-color: #007bbf;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #8e8e8e;
+    font-size: 14px;
+  }
+  
+  .or-divider span:first-child,
+  .or-divider span:last-child {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .or-divider span {
+    margin: 0 15px;
+  }
+  
+  .terms {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 20px;
+  }
+  
+  .terms a {
+    color: #00376b;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-box {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .login-box p {
+    font-size: 14px;
+  }
+  
+  .login-box a {
+    color: #0095f6;
+    text-decoration: none;
+  }
+  
+  .login-box a:hover {
+    text-decoration: underline;
+  }
+  
